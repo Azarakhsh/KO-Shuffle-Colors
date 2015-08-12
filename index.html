@@ -13,7 +13,9 @@
             <p>Your text: <input data-bind="value: inputText" /></p>
             <p>Add rgb here: <input data-bind="value: initialRGB" /></p>
             <p>MinusPlus factor: <input data-bind="value: initialFactor" /></p>
-            <button data-bind="click: shuffleColors">Shuffle Colors</button>
+
+            <div data-bind="text: inputText"></div>
+            <div data-bind="text: spectrum"></div>
         </div>
 
 
